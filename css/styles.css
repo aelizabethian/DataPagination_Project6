@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(229, 238, 250);
   transition: 0.4s;
 }
@@ -16,6 +16,10 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.head {
+  display: none;
 }
 
 .page {
@@ -33,12 +37,13 @@ header {
 }
 
 header h2 {
-  font-size: 36px;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 800;
-  color: #4a5568;
+  color: rgb(30, 131, 233);
   letter-spacing: 2px;
   margin-bottom: 25px;
+  padding-right: 30px;
 }
 
 .student-search {

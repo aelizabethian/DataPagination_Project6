@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Student List</title>
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Student List</title>
 
-  <div class="page">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h2>Students</h2>
 
-    <header class="header">
-      <h2>Students</h2>
-      
         <!-- Extra Credit: Dynamically insert search form here  
         
           EXAMPLE - Search form:
@@ -25,12 +32,10 @@
           </label>
         
         -->
+      </header>
 
-    </header>
-    
-    <ul class="student-list">
-
-      <!-- Dynamically insert students here
+      <ul class="student-list">
+        <!-- Dynamically insert students here
         
         EXAMPLE - Student list item:
 
@@ -45,14 +50,11 @@
           </div>
         </li>
 
-      -->
-        
-    </ul>
+      --></ul>
 
-    <div class="pagination">
-      <ul class="link-list">
-
-        <!-- Dynamically insert pagination buttons here
+      <div class="pagination">
+        <ul class="link-list">
+          <!-- Dynamically insert pagination buttons here
 
           EXAMPLE - Two pagination buttons, one with active class, one without:
             
@@ -63,13 +65,11 @@
             <button type="button">2</button>
           </li>
       
-        -->
-
-      </ul>
+        --></ul>
+      </div>
     </div>
-    
-  </div>
-  <script src="js/data.js"></script> 
-  <script src="js/script.js"></script>
-</body>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
