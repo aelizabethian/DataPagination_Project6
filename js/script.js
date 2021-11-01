@@ -43,9 +43,9 @@ function showPage(list, page) {
       joinDate.className = "date";
       joinDate.innerHTML = `Joined ${list[i].registered.date}`;
 
-      const body = document.querySelector("body");
+      const header = document.querySelector("header");
 
-      body.appendChild(studentList);
+      header.insertAdjacentElement("afterend", studentList);
       studentList.appendChild(li);
       li.appendChild(divDetails);
       li.appendChild(joinedDiv);
@@ -133,7 +133,8 @@ function search(list) {
     const newHeadline = document.querySelector(".student-list");
     newHeadline.innerHTML = "Sorry, no results found ☹";
     newHeadline.style.textAlign = "center";
-    newHeadline.style.fontSize = "2rem";
+    newHeadline.style.fontSize = "1.5rem";
+    paginate(0);
   }
 }
 
